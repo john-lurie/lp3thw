@@ -1,0 +1,74 @@
+This is a list of all symbols and names used in Exercises 1-21
+
+SYMBOLS
+-------------------------------------------------------------------------------------
+Symbol  Name                Purpose
+
+ =      Equals              Assign a value to a variable.
+ +=     Plus-equals         Add value to existing variable.
+ :      Colon               End a function definition.
+ _      Underscore          Put "space" between words in variable names.
+ ()     Parentheses         Enclose function arguments or modify order of operations.
+ {}     Curly braces        Put variables or code in an f-string.
+ '      Single quotes       Enclose a string. Helpful if double quotes needed inside.
+ "      Double quotes       Enclose a string. Helpful if single quotes needed inside.
+ """    Triple quotes       Enclose a string. Helpful if printing multiple lines.
+ #      Hash                Begin a comment. Anything after '#' is ignored by Python.
+ ,      Comma               Separate values, such as arguments in a function.
+ +      Plus                Add numbers or strings.
+ -      Minus               Subtract numbers or denote a negative number.
+ *      Asterisk            Multiply numbers or list of arguments in function (*args).
+ /      Slash               Float division (remainder as decimal).
+ //     Double slash        Floor division (no remainder).
+ %      Percent             Calculate modulus (remainder of division).
+ ==     Equals              Evaluate if a equals b.
+ <      Less-than           Evaluate if a less-than b.
+ >      Greater-than        Evaluate if a greater-than b.
+ <=     Less-than-equal     Evaluate if a less-than-equal b.
+ >=     Greater-than-equal  Evaluate if a greater-than-equal b.
+ f      f-string            Denote an f-string. Can have variables or code inside.
+ .      Period              Call a function or method.
+ \      Backslash           Start an escape sequence.
+ \n     New line            Starts new line.
+ \t     Tab                 Inserts a tab (8 spaces).
+ \\     Double backslash    Insert a backslash.
+ 
+
+NAMES
+-----------------------------------------------------------------------------------
+Name     Type                Purpose
+
+True     keyword             Has Boolean value True.
+False    keyword             Has Boolean value False.
+def      keyword             Define a function.
+return   keyword             Return value from a function.
+from     keyword             Import specific parts of a module.
+import   keyword             Import a module.
+
+print    function            Print values to the terminal.
+end=     keyword argument    Specify alternate end string to print. Default = ' '.
+
+open     function            Open a file as file object.
+'r'      keyword argument    Open file for reading only.
+'w'      keyword argument    Open file for writing, truncating the file first.
+'+'      keyword argument    Open file for updating (reading and writing).
+read     method              Read the contents of a file object after current pos.
+readline method              Read current line after position.
+write    method              Write to file.
+truncate method              Truncate file.
+seek     method              Seek to specified position.
+close    method              Close file object. Important to prevent leaks.
+
+input    function            Take user input from terminal, with optional str prompt.
+round    function            Round to specified decimal points. Can be negative.
+float    function            Convert str or int to float.
+eval     function            Evaluate code inside str.
+
+format   method              Insert values into a string.
+
+os       module              Operating system interfaces
+path     module              Common pathname manipulations
+exists   function            Return True if path (filename) exists, False otherwise.
+
+sys      module              Built-in module for interacting with interpreter.
+argv     object              List of command line arguments.
