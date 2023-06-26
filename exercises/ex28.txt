@@ -1,0 +1,62 @@
+I copy-pasted these into the Python interpreter to check my work.
+All of my answers were correct!
+
+1. True and True
+[True] Correct
+
+2. False and True
+[False] Correct
+
+3. 1 == 1 and 2 == 1
+[False] Correct
+
+4. "test" == "test"
+[True] Correct
+
+5. 1 == 1 or 2 != 1
+[True] Correct 
+
+6. True and 1 == 1
+[True] Correct
+
+7. False and 0 != 0
+[False] Correct
+
+8. True or 1 == 1
+[True] Correct
+
+9. "test" == "testing"
+[False] Correct
+
+10. 1 != 0 and 2 == 1
+[False] Correct
+
+11. "test" != "testing"
+[True] Correct
+
+12. "test" == 1
+[False] Correct
+
+13. not (True and False)
+[True] Correct
+
+14. not (1 == 1 and 0 != 1)
+[False] Correct
+
+15. not (10 == 1 or 1000 == 1000)
+[False] Correct
+
+16. not (1 != 10 or 3 == 4)
+[False] Correct
+
+17. not ("testing" == "testing" and "Zed" == "Cool Guy")
+[True] Correct
+
+18. 1 == 1 and (not ("testing" == 1 or 1 == 0))
+[True] Correct
+
+19. "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+[False] Correct
+
+20. 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+[False] Correct
