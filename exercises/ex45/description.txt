@@ -1,0 +1,36 @@
+Instead of writing another text adventure game, as suggested by Shaw, I will 
+write a module to run Wolfram's cellular automata.
+
+These are my initial notes.
+
+The simulator will take a variety of parameters and visualize the automata by 
+printing to the terminal.
+
+Class Hierarchy
+* Automaton
+  - run(iterations, pause)
+
+Parameters:
+rule: int, (0, 255), default = 0
+There are eight possible states a cell can be in, and each state can either
+result in a white or black cell on the next iteration. The rule for an automaton
+can be expressed as an eight bit binary number --i.e, a byte-- with 0 
+corresponding to a white cell on the next iteration, and 1 corresponding to 
+black. The byte for the rule can range between 0 and (2 ** 8) - 1 = 255.
+
+initial conditions: str, default = 'wbw'
+In Chapter 2 of Wolfram, the initial condition is a single black cell at the 
+center with infinite white cells on either side. This can be represented by the
+string 'wbw'. This will then be padded with additional white cells depending on 
+the number of cells (cf. n_cells below). FUTURE: Other initial conditions.
+
+n_cells: int, default = 79
+Number of cells in the grid. Should be less than the number of columns in the 
+user's terminal, or else line wrapping will occur.
+
+iterations: int, default = 20
+Number of iterations. FUTURE: Prompt for approval if iterations > 1000.
+
+pause: float, default = 0.0
+Duration of pause between iterations, in seconds. FUTURE: Prompt for approval
+if total simulation duration > 5 min.
