@@ -1,8 +1,6 @@
-<html>
-    <head>
-        <title>Gothons of Planet Percal #25</title>
-    </head>
-<body>
+{% extends "layout.html" %}
+
+{% block content %}
 
 {% if greeting %}
     I just wanted to say
@@ -11,5 +9,7 @@
     <em>Hello</em>, world!
 {% endif %}
 
-</body>
-</html>
+<br/><br/>
+<a href="/hello">Return to form<a/>
+
+{% endblock %}

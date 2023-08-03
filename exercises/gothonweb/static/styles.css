@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: large;
+  margin: 3vw 5vw;
+}
+
+label {
+  width: 10%;
+  display: inline-block;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 1em 1em;
+  margin: 1em 0em;
+  display: inline-block;
+}
